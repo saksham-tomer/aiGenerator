@@ -33,7 +33,7 @@ const MedievalNFTScroll2 = ({ nftData }) => {
             <Image
               width={1920}
               height={1080}
-              src={nftData.imageUrl || "/api/placeholder/300/300"}
+              src={nftData.imageUrl || "/forge.jpeg"}
               alt="NFT Image"
               className="w-64 h-64 mx-auto rounded-lg border-4 border-amber-900 shadow-lg"
             />
